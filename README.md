@@ -5,7 +5,7 @@
 
 Portfolio personal desarrollado con React.js que muestra mis proyectos, habilidades y experiencia profesional.
 
-![Captura del Portfolio](public/screenshot.png)
+![Captura del Portfolio](public/screeenshot.png)
 
 ## ✨ Características
 
