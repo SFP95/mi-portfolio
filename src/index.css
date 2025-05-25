@@ -16,3 +16,11 @@ body {
   background-color: #4a4e69;
 
 }
+body:not(.loaded) {
+  opacity: 0;
+  overflow: hidden;
+}
+body.loaded {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
