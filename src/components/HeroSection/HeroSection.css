@@ -140,8 +140,9 @@ a{
   margin-top: 0.3rem; /* Espacio entre título y valor */
 }
 .social-item{
-  margin-top: 18px;
+  margin-top: 8px;
   margin-right: 2px;
+  color: #f0f0f0;
 }
 
 @media (max-width: 768px) {
