@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
-      <div className="main-container">
+      <div className="/mi-portfolio">
         <HeroSection />
         <ContainerContent />
       </div>
