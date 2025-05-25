@@ -1,0 +1,171 @@
+.resume-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0.1rem;
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.resume-section {
+  margin-bottom: 2.5rem;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: #d3a383;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 0.5rem;
+}
+
+.education-item {
+  margin-bottom: 1.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-top: 9px;
+  padding: 6px;
+  margin: 1.1rem;
+  border-radius: 8px;
+  border-left: 3px solid #d3a383;
+}
+
+.institution {
+  font-size: 1.2rem;
+  color: #f0f0f0;
+  margin-bottom: 0.2rem;
+}
+
+.degree {
+  font-style: italic;
+  color: #f0f0f0;
+  margin-bottom: 0.2rem;
+}
+
+.date {
+  color: #f3c582;
+  font-size: 1rem;
+}
+
+.experience-item {
+  margin-bottom: 2rem;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 6px;
+  margin: 1.1rem;
+  border-radius: 8px;
+  border-left: 3px solid #d3a383;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.job-header {
+  margin-bottom: 1rem;
+}
+
+.position {
+  font-size: 1.3rem;
+  color: #d3a383;
+  margin-bottom: 0.3rem;
+}
+
+.company {
+  font-size: 1.1rem;
+  color: #f0f0f0;
+  margin-bottom: 0.3rem;
+}
+
+.date, .location {
+  display: inline-block;
+  margin-right: 1rem;
+  color: #f3c582;
+  font-size: 0.9rem;
+}
+
+.project {
+  padding: 1.2rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.project:hover {
+  background: rgba(255, 255, 255, 0.046);
+  transform: translateY(-2px);
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.8rem;
+  flex-wrap: wrap;
+}
+
+.project-title {
+  font-size: 1.3rem;
+  color: #d3a383;
+  margin: 0;
+  font-weight: 600;
+}
+
+.project-date {
+  color: #f3c582;
+  margin: 0;
+  font-size: 0.9rem;
+  border-radius: 12px;
+}
+
+.responsibilities {
+  color: #f0f0f0;
+  padding-left: 1.5rem; /* Aumenté el padding para mejor alineación */
+  margin: 0.8rem 0;
+  list-style-type: none; /* Elimina los bullets por defecto */
+}
+
+.responsibilities li {
+  margin-bottom: 0.6rem;
+  position: relative;
+  padding-left: 1.5rem;
+  line-height: 1.5;
+  display: block; /* Asegura que cada li sea un bloque */
+  text-align: left; /* Alineación consistente del texto */
+  white-space: normal; /* Permite que el texto fluya normalmente */
+}
+
+.responsibilities li::before {
+  content: "▹";
+  position: absolute;
+  left: 0;
+  color: #d3a383;
+  font-size: 1.1rem;
+}
+
+.tech-tags {
+  color: #4a4e69;
+  background-color: #f0f0f0a3;
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.8rem 0;
+}
+
+.tech-tag {
+  color: #4a4e69;
+  margin-left: 1rem;
+  padding: 0.2rem 0.6rem;
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .resume-container {
+    padding: 1rem;
+  }
+  
+  .resume-title {
+    font-size: 2rem;
+  }
+  
+  .experience-item {
+    padding: 1rem;
+  }
+}

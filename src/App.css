@@ -1,0 +1,22 @@
+/* Elimina .container y .app-container, mantén solo esto: */
+.main-container {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;       /* Ocupa toda la altura de la pantalla */
+  width: 100%;            /* Ocupa todo el ancho disponible */
+  margin: 0 auto;         /* Elimina márgenes externos */
+  padding: 2rem;          /* Espacio interno opcional */
+  max-width: 2000px; /* Ajusta este valor según necesites */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+  }
+}

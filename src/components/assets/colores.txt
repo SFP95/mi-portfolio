@@ -1,0 +1,4 @@
+-Naranja:       2196f3
+-Amarillo:      fbcc86
+-Azul oscuro:   76799c
+-Azul claro:    43465f
