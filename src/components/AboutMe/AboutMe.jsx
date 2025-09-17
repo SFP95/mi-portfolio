@@ -6,12 +6,13 @@ export function AboutMe() {
       <h2 className="about-title">Sobre Mí</h2>
       <div className="about-content">
         <p className="about-description">
-          Soy profesional con 2 años de experiencia como Risk Advisor en Deloitte, 
-          especializada en gestión de riesgos y optimización de procesos IT. 
-          Domino herramientas como VBA, PL/SQL, CyberArk, y Filezilla, respaldada por certificaciones
-           en Python, Power Platform, y SQL. Con formación en Desarrollo de Aplicaciones 
-           Multiplataforma y seguridad informática, me destaco por mi proactividad, aprendizaje 
-           continuo y capacidad para ofrecer soluciones eficientes en entornos dinámicos.
+          Soy profesional con 3 años de experiencia como programadora especializada 
+          en gestión de riesgos y optimización de procesos IT. Domino herramientas 
+          como VBA, PL/SQL, CyberArk, y Filezilla, respaldada por certificaciones 
+          en Python, Power Platform, SQL y Dynamics 365. Con formación en Desarrollo 
+          de Aplicaciones  Multiplataforma y seguridad informática, me destaco por mi 
+          proactividad, aprendizaje continuo y capacidad para ofrecer soluciones 
+          eficientes en entornos dinámicos.
         </p>
       </div>
       
@@ -22,11 +23,11 @@ export function AboutMe() {
           <div className="skill-column">
             <div className="skill-category">
               <strong>Lenguajes:</strong>
-              <span>Python, SQL, VBA, JavaScript, Java, Dart, ABAP</span>
+              <span>JavaScript, Java, Python ,Android, Dart, HTML5, CSS3, Linux, C#, VBA, React</span>
             </div>
             <div className="skill-category">
               <strong>Bases de Datos:</strong>
-              <span>Oracle SQL, PL/SQL, SAP HANA</span>
+              <span>Oracle SQL, PL/SQL, SAP </span>
             </div>
           </div>
           
@@ -34,25 +35,16 @@ export function AboutMe() {
           <div className="skill-column">
             <div className="skill-category">
               <strong>Herramientas:</strong>
-              <span>SAPUI5, CyberArk, FileZilla, PuTTY, Power Platform</span>
+              <span>Flutter, React, Microcoftt Power Platform,  Dynamics 365, Jenkins, 
+                ABAP, CyberArk, Filezilla, Putty, SQL Devenlopment, MongoDB, XrmToolBox, 
+                Plugin Registration Tool,  Visual Studio</span>
             </div>
             <div className="skill-category">
               <strong>Testing/CI:</strong>
               <span>Automatización (Talos BDD), Jenkins</span>
             </div>
           </div>
-          
-          {/* Columna 3 */}
-          <div className="skill-column">
-            <div className="skill-category">
-              <strong>Desarrollo:</strong>
-              <span>Flutter, HTML5/CSS3, APIs</span>
-            </div>
-            <div className="skill-category">
-              <strong>Sistemas:</strong>
-              <span>Linux, Gestión de Riesgos IT, Detección de Fraudes</span>
-            </div>
-          </div>
+         
         </div>
       </div>
     </section>
