@@ -23,11 +23,7 @@ export function AboutMe() {
           <div className="skill-column">
             <div className="skill-category">
               <strong>Lenguajes:</strong>
-              <span>JavaScript, Java, Python ,Android, Dart, HTML5, CSS3, Linux, C#, VBA, React</span>
-            </div>
-            <div className="skill-category">
-              <strong>Bases de Datos:</strong>
-              <span>Oracle SQL, PL/SQL, SAP </span>
+              <span>JavaScript, Java, Python ,Android, Dart, HTML5, CSS3, Linux, C#, VBA, React,Oracle SQL, PL/SQL, SAP</span>
             </div>
           </div>
           
@@ -36,12 +32,8 @@ export function AboutMe() {
             <div className="skill-category">
               <strong>Herramientas:</strong>
               <span>Flutter, React, Microcoftt Power Platform,  Dynamics 365, Jenkins, 
-                ABAP, CyberArk, Filezilla, Putty, SQL Devenlopment, MongoDB, XrmToolBox, 
+                ABAP, CyberArk, Filezilla, Putty, SQL Devenlopment,Talos BDD, MongoDB, XrmToolBox, 
                 Plugin Registration Tool,  Visual Studio</span>
-            </div>
-            <div className="skill-category">
-              <strong>Testing/CI:</strong>
-              <span>Automatización (Talos BDD), Jenkins</span>
             </div>
           </div>
          
