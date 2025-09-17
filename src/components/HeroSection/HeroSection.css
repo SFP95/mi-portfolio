@@ -29,13 +29,13 @@
 }
 .hero-subtitle{
   color: #f0f0f0;
-  font-size: 12px;
+  font-size: 15px;
   text-align: center;
-  background-color: #75789b;
+  /* background-color: #75789b;
   border-radius: 9px;
   margin-left: 4rem;
   margin-right: 4rem;
-  border: 4px groove #4a4e69;
+  border: 4px groove #4a4e69; */
   
 }
 .hero-contact{
