@@ -17,7 +17,7 @@ const HeroSection = () => {
         </a>
         </div>
         <h1 className="hero-title">Sonia Fernández Pascual</h1>
-        <h2 className="hero-subtitle">Desarrolladora de Software</h2>
+        <h2 className="hero-subtitle">Desarrolladora de Software (CRM & Automatización)</h2>
         <h2 className="hero-subtitle">FullStack Developer</h2>
         <div className="hero-contact">
           <div className="contact-item">
