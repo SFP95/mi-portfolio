@@ -7,13 +7,28 @@ const Resume = () => {
       
 
       <div className="resume-section">
+        <div className="experience-item">
+          <div className="job-header">
+            <h3 className="position">Desarrolladora CRM | Microsoft - Dynamics 365</h3>
+            <h4 className="company">Algoritmia</h4>
+            <span className="date">03/2023 — 06/2023</span>
+            <span className="location">Madrid, España</span>
+          </div>
+          <ul className="responsibilities">
+            <li>Manejo y personalización de Microsoft Dynamics 365 (CRM): configuración, modificación y actualización de componentes existentes.</li>
+            <li>Uso de herramientas como XrmToolBox, Plugin Registration Tool y Visual Studio para apoyar en la depuración, mantenimiento y mejoras de soluciones.</li>
+            <li>Implementación de flujos de trabajo y automatizaciones en Power Automate, integrando y optimizando procesos ya establecidos en Dynamics 365 Apps y Field Service.</li>
+            <li>Desarrollo de algoritmos aplicados a CRM para mejorar la eficiencia de procesos y análisis de negocio.</li>
+            <li>Participación en proyectos de soporte, mantenimiento y mejora continua, contribuyendo a la evolución de las soluciones ya implementadas.</li>
+          </ul>
+        </div>
+
         <h2 className="section-title">Experiencia</h2>
-        
         <div className="experience-item">
           <div className="job-header">
             <h3 className="position">Risk Advisor | Risk Advisor IT Core</h3>
             <h4 className="company">Deloitte</h4>
-            <span className="date">06/2023 — 05/2025</span>
+            <span className="date">03/2023 — 05/2025</span>
             <span className="location">Madrid, España</span>
           </div>
           <div className="project">
@@ -66,19 +81,7 @@ const Resume = () => {
           </div>
         </div>
 
-        <div className="experience-item">
-          <div className="job-header">
-            <h3 className="position">Becaria, Risk Advisory – IT Core</h3>
-            <h4 className="company">Deloitte</h4>
-            <span className="date">03/2023 — 06/2023</span>
-            <span className="location">Madrid, España</span>
-          </div>
-          <ul className="responsibilities">
-            <li>Apoyo en auditorías y análisis de riesgos tecnológicos</li>
-            <li>Desarrollo de scripts en Python para automatizar procesos</li>
-            <li>Consultas y gestión de bases de datos con PL/SQL</li>
-          </ul>
-        </div>
+        
         <div className="resume-section">
         <h2 className="section-title">Educación</h2>
         
