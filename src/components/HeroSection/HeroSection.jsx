@@ -18,7 +18,7 @@ const HeroSection = () => {
         </div>
         <h1 className="hero-title">Sonia Fernández Pascual</h1>
         <h2 className="hero-subtitle">Desarrolladora de Software (CRM & Automatización)</h2>
-        <h2 className="hero-subtitle">FullStack Developer</h2>
+        <h3 className="hero-subtitle">FullStack Developer</h3>
         <div className="hero-contact">
           <div className="contact-item">
             <FaEnvelope className="contact-icon" />
