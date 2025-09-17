@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/mi-portfolio/static/css/main.e32758c7.css",
-    "main.js": "/mi-portfolio/static/js/main.0e971be9.js",
+    "main.css": "/mi-portfolio/static/css/main.c0296e41.css",
+    "main.js": "/mi-portfolio/static/js/main.3a9b5c15.js",
     "static/media/d20_2.png": "/mi-portfolio/static/media/d20_2.be0191f41d46b18ebe7f.png",
     "static/media/me.jpg": "/mi-portfolio/static/media/me.6aac8b69274fd8f8c2fc.jpg",
     "static/media/bruja-escoba.png": "/mi-portfolio/static/media/bruja-escoba.ded60353a35d82914dd7.png",
     "static/media/bandera-roja.png": "/mi-portfolio/static/media/bandera-roja.e5697db510b00b636426.png",
     "static/media/github.png": "/mi-portfolio/static/media/github.44eee0c4a6c25b0d7347.png",
     "index.html": "/mi-portfolio/index.html",
-    "main.e32758c7.css.map": "/mi-portfolio/static/css/main.e32758c7.css.map",
-    "main.0e971be9.js.map": "/mi-portfolio/static/js/main.0e971be9.js.map"
+    "main.c0296e41.css.map": "/mi-portfolio/static/css/main.c0296e41.css.map",
+    "main.3a9b5c15.js.map": "/mi-portfolio/static/js/main.3a9b5c15.js.map"
   },
   "entrypoints": [
-    "static/css/main.e32758c7.css",
-    "static/js/main.0e971be9.js"
+    "static/css/main.c0296e41.css",
+    "static/js/main.3a9b5c15.js"
   ]
 }
