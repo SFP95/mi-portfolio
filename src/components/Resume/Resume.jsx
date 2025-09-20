@@ -7,6 +7,7 @@ const Resume = () => {
       
 
       <div className="resume-section">
+        <h2 className="section-title">Experiencia</h2>
         <div className="experience-item">
           <div className="job-header">
             <h3 className="position">Desarrolladora CRM | Microsoft - Dynamics 365</h3>
@@ -37,8 +38,6 @@ const Resume = () => {
             <li>Participación en proyectos de soporte, mantenimiento y mejora continua, contribuyendo a la evolución de las soluciones ya implementadas.</li>
           </ul>
         </div>
-
-        <h2 className="section-title">Experiencia</h2>
         <div className="experience-item">
           <div className="job-header">
             <h3 className="position">Risk Advisor | Risk Advisor IT Core</h3>
