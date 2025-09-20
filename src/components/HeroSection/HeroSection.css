@@ -31,12 +31,12 @@
   color: #f0f0f0;
   font-size: 15px;
   text-align: center;
-   background-color: #75789b;
+  /* background-color: #75789b;
   border-radius: 9px;
   margin-left: 3rem;
   margin-right: 3rem;
-  border: 4px groove #4a4e69;
-  
+  border: 4px groove #4a4e69; */
+
 }
 .hero-contact{
   display: flex;
@@ -120,10 +120,10 @@ a{
   display: block;
 }
 .colorized-image {
-  filter: 
-    brightness(0.7) 
-    sepia(30%) 
-    hue-rotate(240deg) 
+  filter:
+    brightness(0.7)
+    sepia(30%)
+    hue-rotate(240deg)
     saturate(400%)
     contrast(0.8);
 }
@@ -150,7 +150,7 @@ a{
     margin: 0 auto 2rem; /* Centrado y espacio inferior */
     order: -1; /* Lo coloca arriba en flex containers */
   }
-  
+
   .profile-image {
     width: 140px;
     height: 140px; /* Reducción proporcional */
