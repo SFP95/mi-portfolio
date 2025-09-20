@@ -125,7 +125,8 @@
   margin-bottom: 0.6rem;
   position: relative;
   padding-left: 1.5rem;
-  line-height: 1.5;
+  padding-right: 0.5rem;
+  line-height: 1;
   display: block; /* Asegura que cada li sea un bloque */
   text-align: justify; /* Alineación consistente del texto */
   white-space: normal; /* Permite que el texto fluya normalmente */
