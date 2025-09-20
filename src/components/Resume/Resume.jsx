@@ -61,7 +61,11 @@ const Resume = () => {
             </div>
             <ul className="responsibilities">
               <li>Análisis de datos para detección de actividades fraudulentas utilizando SQL</li>
+            </ul>
+            <ul className="responsibilities">
               <li>Desarrollo de scripts en Python para automatizar procesos de monitoreo</li>
+            </ul>
+            <ul className="responsibilities">
               <li>Gestión de accesos seguros con CyberArk</li>
             </ul>
           </div>
@@ -76,7 +80,11 @@ const Resume = () => {
             </div>
             <ul className="responsibilities">
               <li>Gestión y análisis de datos contables mediante Microsoft Excel</li>
+            </ul>
+            <ul className="responsibilities">
               <li>Desarrollo y depuración de macros en VBA para automatizar procesos contables</li>
+            </ul>
+            <ul className="responsibilities">
               <li>Implementación de QIMView para visualización y análisis de datos financieros</li>
             </ul>
           </div>
@@ -91,6 +99,8 @@ const Resume = () => {
             </div>
             <ul className="responsibilities">
               <li>Desarrollo y mantenimiento de interfaces de usuario utilizando SAPUIS y XML</li>
+            </ul>
+            <ul className="responsibilities">
               <li>Colaboración en programación básica con ABAP para integrar funcionalidades específicas</li>
             </ul>
           </div>
