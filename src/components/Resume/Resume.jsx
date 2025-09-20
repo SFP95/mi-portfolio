@@ -16,7 +16,7 @@ const Resume = () => {
             <span className="location">Madrid, España</span>
           </div>
            <div className="tech-tags">
-              <span className="tech-tag">Microsoft Dynamics 365 (CRM)</span>
+              <span className="tech-tag">Microsoft Dynamics 365</span>
               <span className="tech-tag">XrmToolBox</span>
               <span className="tech-tag">Plugin Registration Tool</span>
               <span className="tech-tag">Visual Studio</span>
