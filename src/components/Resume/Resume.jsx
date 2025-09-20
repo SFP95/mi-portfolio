@@ -23,13 +23,17 @@ const Resume = () => {
             </div>
           <ul className="responsibilities">
             <li>Manejo y personalización de Microsoft Dynamics 365 (CRM): configuración, modificación y actualización de componentes existentes.</li>
+          </ul>
+          <ul className="responsibilities">  
             <li>Uso de herramientas como XrmToolBox, Plugin Registration Tool y Visual Studio para apoyar en la depuración, mantenimiento y mejoras de soluciones.</li>
             </ul>
           <ul className="responsibilities">
             <li>Implementación de flujos de trabajo y automatizaciones en Power Automate, integrando y optimizando procesos ya establecidos en Dynamics 365 Apps y Field Service.</li>
+          </ul>
+          <ul className="responsibilities">  
             <li>Desarrollo de algoritmos aplicados a CRM para mejorar la eficiencia de procesos y análisis de negocio.</li>
           </ul>
-          <ul>
+          <ul className="responsibilities">
             <li>Participación en proyectos de soporte, mantenimiento y mejora continua, contribuyendo a la evolución de las soluciones ya implementadas.</li>
           </ul>
         </div>
