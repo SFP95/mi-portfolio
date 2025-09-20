@@ -148,16 +148,87 @@ a{
   margin-right: 2px;
   color: #f0f0f0;
 }
+/* Añade estas reglas al final de tu CSS existente */
 
+/* Para pantallas menores a 768px (móviles) */
 @media (max-width: 768px) {
   .hero {
-    max-width: 100%; /* Ocupa todo el ancho en móviles */
-    margin: 0 auto 2rem; /* Centrado y espacio inferior */
-    order: -1; /* Lo coloca arriba en flex containers */
+    width: 95% !important; /* Más ancho en móviles */
+    max-width: none !important; /* Elimina límite máximo */
+    margin: 0 auto 1.5rem !important; /* Centrado con margen inferior */
+    padding: 1.5rem !important; /* Reducir padding en móviles */
+    min-height: auto !important; /* Elimina altura mínima fija */
+    border-radius: 20px !important; /* Radio de borde más pequeño */
   }
-
+  
   .profile-image {
-    width: 140px;
-    height: 140px; /* Reducción proporcional */
+    margin-left: 0 !important; /* Elimina margen izquierdo fijo */
+    width: 120px !important; /* Tamaño fijo para móviles */
+    height: 120px !important; /* Tamaño fijo para móviles */
   }
+  
+  .contact-icon {
+    margin-left: 0 !important; /* Elimina margen izquierdo fijo */
+    font-size: 2rem !important; /* Iconos más pequeños */
+    padding: 8px !important; /* Menos padding */
+  }
+  
+  .hero-title {
+    font-size: 24px !important; /* Título más pequeño */
+  }
+  
+  .hero-contact h5,
+  .hero-contact span {
+    font-size: 16px !important; /* Texto más pequeño */
+  }
+  
+  ul {
+    margin-left: 0 !important; /* Elimina margen izquierdo fijo */
+    justify-content: center !important; /* Centra elementos */
+    flex-wrap: wrap !important; /* Permite que se ajusten */
+  }
+  
+  .hero-subtitle {
+    margin-left: 0.5rem !important; /* Margen relativo */
+    margin-right: 0.5rem !important; /* Margen relativo */
+  }
+}
+
+/* Para pantallas muy pequeñas (menos de 480px) */
+@media (max-width: 480px) {
+  .hero {
+    padding: 1rem !important; /* Aún menos padding */
+    border-radius: 15px !important; /* Bordes más redondeados */
+  }
+  
+  .profile-image {
+    width: 100px !important; /* Imagen más pequeña */
+    height: 100px !important; /* Imagen más pequeña */
+  }
+  
+  .hero-title {
+    font-size: 20px !important; /* Título más pequeño */
+  }
+  
+  .contact-item {
+    flex-direction: column !important; /* Apila icono y texto */
+    text-align: center !important; /* Centra contenido */
+    gap: 0.5rem !important; /* Menor espacio entre elementos */
+  }
+  
+  .hero-contact {
+    gap: 1rem !important; /* Menor espacio entre elementos */
+  }
+}
+
+/* Asegurar que las imágenes sean responsivas */
+.profile-image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Mejora para el texto en móviles */
+.hero-subtitle {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
