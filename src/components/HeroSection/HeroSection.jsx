@@ -51,9 +51,8 @@ const HeroSection = () => {
         </div>
       </div>
        <footer>
-        <div class="container">
+        <div class="footer">
             <p>© 2023 Sonia Fernández Pascual - Desarrolladora de Software</p>
-            <p>Portafolio responsivo optimizado para todos los dispositivos</p>
         </div>
       </footer>
     </section>
