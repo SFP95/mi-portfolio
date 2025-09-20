@@ -26,7 +26,7 @@ const Resume = () => {
           </ul>
           <ul className="responsibilities">  
             <li>Uso de herramientas como XrmToolBox, Plugin Registration Tool y Visual Studio para apoyar en la depuración, mantenimiento y mejoras de soluciones.</li>
-            </ul>
+          </ul>
           <ul className="responsibilities">
             <li>Implementación de flujos de trabajo y automatizaciones en Power Automate, integrando y optimizando procesos ya establecidos en Dynamics 365 Apps y Field Service.</li>
           </ul>
