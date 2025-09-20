@@ -52,7 +52,7 @@ const HeroSection = () => {
       </div>
        <footer>
         <div class="footer">
-            <p>© 2023 Sonia Fernández Pascual - Desarrolladora de Software</p>
+            <p>© 2025 Sonia Fernández Pascual - Desarrolladora de Software</p>
         </div>
       </footer>
     </section>
