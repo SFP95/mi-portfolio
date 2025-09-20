@@ -43,6 +43,7 @@
   flex-direction: column;
   gap: 1.5rem;
   margin-top: 2rem;
+  border-top: 1px solid #f3c68271;
 }
 .contact-icon {
   color: #f3c582;
