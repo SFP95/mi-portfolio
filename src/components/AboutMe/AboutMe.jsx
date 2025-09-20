@@ -6,7 +6,7 @@ export function AboutMe() {
       <h2 className="about-title">Sobre Mí</h2>
       <div className="about-content">
         <p className="about-description">
-          Soy profesional con 3 años de experiencia como programadora especializada 
+          Soy profesional con 2 años de experiencia como programadora especializada 
           en gestión de riesgos y optimización de procesos IT. Domino herramientas 
           como VBA, PL/SQL, CyberArk, y Filezilla, respaldada por certificaciones 
           en Python, Power Platform, SQL y Dynamics 365. Con formación en Desarrollo 
