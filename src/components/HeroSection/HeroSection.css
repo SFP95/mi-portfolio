@@ -123,6 +123,7 @@ a{
   color: #f0f0f0;
   font-size: 8px;
   text-align: center;
+  padding: 1rem;
 }
 .colorized-image {
   filter:
