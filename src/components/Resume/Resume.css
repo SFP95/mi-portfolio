@@ -118,6 +118,7 @@
   padding-left: 1.5rem; /* Aumenté el padding para mejor alineación */
   margin: 0.8rem 0;
   list-style-type: none; /* Elimina los bullets por defecto */
+  text-align: justify;
 }
 
 .responsibilities li {
