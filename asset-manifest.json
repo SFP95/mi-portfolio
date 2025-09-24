@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mi-portfolio/static/css/main.23eefd5c.css",
+    "main.css": "/mi-portfolio/static/css/main.9781ea0e.css",
     "main.js": "/mi-portfolio/static/js/main.e54431ba.js",
     "static/media/daily-pulse.png": "/mi-portfolio/static/media/daily-pulse.6a9c6899e60043f373c4.png",
     "static/media/d20_2.png": "/mi-portfolio/static/media/d20_2.be0191f41d46b18ebe7f.png",
@@ -8,11 +8,11 @@
     "static/media/bruja-escoba.png": "/mi-portfolio/static/media/bruja-escoba.ded60353a35d82914dd7.png",
     "static/media/github.png": "/mi-portfolio/static/media/github.44eee0c4a6c25b0d7347.png",
     "index.html": "/mi-portfolio/index.html",
-    "main.23eefd5c.css.map": "/mi-portfolio/static/css/main.23eefd5c.css.map",
+    "main.9781ea0e.css.map": "/mi-portfolio/static/css/main.9781ea0e.css.map",
     "main.e54431ba.js.map": "/mi-portfolio/static/js/main.e54431ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.23eefd5c.css",
+    "static/css/main.9781ea0e.css",
     "static/js/main.e54431ba.js"
   ]
 }
