@@ -42,7 +42,7 @@
 
 .project-image-container {
   position: relative;
-  height: 180px; /* Altura reducida */
+  height: 200px; /* Altura reducida */
   overflow: hidden;
   display: flex;
   justify-content: center;
