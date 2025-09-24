@@ -20,7 +20,7 @@ const Projects = () => {
       type: "Mobile APK",
       image: dailypulseImg,
       githubUrl: "https://github.com/SFP95/daily-pulse.git",
-      description: "Aplicación móvil de misiones secundarias"
+      description: "Aplicación móvil de visualización de Metas y tareas para conseguir pequeños obgetivos personales"
     },
     {
       id: 3,
