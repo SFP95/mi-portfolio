@@ -2,7 +2,7 @@ import './Projects.css';
 import iconGithub from '../assets/github.png';
 import noctuaimg from '../assets/bruja-escoba.png'; 
 import epicrolImg from '../assets/d20_2.png'; 
-import dailypulseImg from '../assets/bandera-roja.png';
+import dailypulseImg from '../assets/daily-pulse.png';
 
 const Projects = () => {
   const projects = [
@@ -19,7 +19,7 @@ const Projects = () => {
       title: "DailyPulse",
       type: "Mobile APK",
       image: dailypulseImg,
-      githubUrl: "https://github.com/SFP95/dailypulse",
+      githubUrl: "https://github.com/SFP95/daily-pulse.git",
       description: "Aplicación móvil de misiones secundarias"
     },
     {
