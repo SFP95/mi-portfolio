@@ -1,6 +1,6 @@
 import { FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
 import './HeroSection.css';
-import meImage from '../assets/me.jpg'; 
+import meImage from '../assets/me.png'; 
 import iconLink from '../assets/linkedin.png'
 import iconGithub from '../assets/github.png'
 
