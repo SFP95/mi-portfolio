@@ -34,7 +34,7 @@ const Projects = () => {
     {
       id: 4,
       title: "QuestDaily",
-      type: "App Movil",
+      type: "Mobile APK",
       image: questdailyImg,
       githubUrl: "https://github.com/SFP95/questdaily",
       description: "Juego inspirado en las 'misiones secundarias' de de los videojuegos, aplicados a la vida real."
