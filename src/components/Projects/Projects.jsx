@@ -3,6 +3,7 @@ import iconGithub from '../assets/github.png';
 import noctuaimg from '../assets/bruja-escoba.png'; 
 import epicrolImg from '../assets/d20_2.png'; 
 import dailypulseImg from '../assets/daily-pulse.png';
+import questdailyImg from '../assets/diana.png';
 
 const Projects = () => {
   const projects = [
@@ -29,6 +30,14 @@ const Projects = () => {
       image: epicrolImg,
       githubUrl: "https://github.com/SFP95/epicroll",
       description: "Plataforma para juegos de rol multiplataforma"
+    },
+    {
+      id: 4,
+      title: "QuestDaily",
+      type: "App Movil",
+      image: questdailyImg,
+      githubUrl: "https://github.com/SFP95/questdaily",
+      description: "Juego inspirado en las 'misiones secundarias' de de los videojuegos, aplicados a la vida real."
     }
   ];
 
